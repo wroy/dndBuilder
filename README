@@ -1,0 +1,22 @@
+This is a quick and dirty prototype.
+
+It's about 60% complete all it needs is the save and loadsing characters,
+printing character sheets (if we want to keep that feats), additional
+text information for the user and a well designed charactersheet page 
+(the last page of the program).
+
+For the saving/loading you'll need to make a character object. The mainwindow.cpp
+object I made is connected to every frame that would need a character object, 
+I would suggect create a single character object in mainwindow's constructor 
+and access it through the 1 mainwindow pointer I pass around.
+
+Also You'll need to implement the rolling feature in the skills frame. I
+have no idea how rolling works, so that one is on you guys.
+
+I wrote this on a Mac, it's your responsibilty to make sure it runs on
+windows, because that's how we have to demo it. My Mac cannot conenct to
+any of the projectors, so we'll have to use someone's PC.
+
+I think that's everything, if you want to improve the design go ahead,
+if you find any bugs please fix them. Otherwise let me know if 
+anything wasn't clear let me know.
